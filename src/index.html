@@ -1,205 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="main.js"></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-  </head>
 
-  <body>
-    <div>
-      <div class="container">
-        <div class="row d-none">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <form>
-              <div class="mb-3">
-                <label for="nameTarget" class="form-label">Your name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="NameTarget"
-                  aria-describedby="nameHelp"
-                />
-                <div id="nameHelp" class="form-text">
-                  Put your first name, and the second one if that the case
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <form>
-              <div class="mb-3">
-                <label for="lastNameTarget" class="form-label"
-                  >Your last name</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="lastNameTarget"
-                  aria-describedby="lastNameHelp"
-                />
-                <div id="lastNameHelp" class="form-text">
-                  Put your last names
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="row d-none">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <form>
-              <div class="mb-3">
-                <label for="phoneTarget" class="form-label">Phone</label>
-                <input type="text" class="form-control" id="phoneTarget" />
-              </div>
-            </form>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <form>
-              <div class="mb-3">
-                <label for="emailTarget" class="form-label"
-                  >Email Address</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="emailTarget"
-                  placeholder="example@gmail.com"
-                />
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="row d-none">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <form>
-              <div class="mb-3">
-                <label for="countryTarget" class="form-label">Country</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="countryTarget"
-                  aria-describedby="countryHelp"
-                />
-                <div id="countryHelp" class="form-text">
-                  put the country you are currently in
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <form>
-              <div class="mb-3">
-                <label for="stateTarget" class="form-label"
-                  >State/Province</label
-                >
-                <input type="text" class="form-control" id="stateTarget" />
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="row d-none">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <form>
-              <div class="mb-3">
-                <label for="cityTarget" class="form-label">City</label>
-                <input type="text" class="form-control" id="cityTarget" />
-              </div>
-            </form>
-          </div>
-        </div>
-        
-        <div class="row d-none">
-          <div class="text-center pb-4">
-            <h1 class="pt-5">How long have you been working?</h1>
-            <span class="lead h6">This information will help us to provide you with better service<span>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="main.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+</head>
 
-          <div class="row">
-            <div class="col text-center mt-5 mb-2">
-              <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
-                No experience
-              </button>
+<body>
+  <div>
+    <div class="container">
+      <div class="row d-none">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <form>
+            <div class="mb-3">
+              <label for="nameTarget" class="form-label">Your name</label>
+              <input type="text" class="form-control" id="NameTarget" aria-describedby="nameHelp" />
+              <div id="nameHelp" class="form-text">
+                Put your first name, and the second one if that the case
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col text-center mb-2 mt-2">
-              <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
-                Less than 3 years
-              </button>
+          </form>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <form>
+            <div class="mb-3">
+              <label for="lastNameTarget" class="form-label">Your last name</label>
+              <input type="text" class="form-control" id="lastNameTarget" aria-describedby="lastNameHelp" />
+              <div id="lastNameHelp" class="form-text">
+                Put your last names
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col text-center mb-2 mt-2">
-              <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
-                3-5 years
-              </button>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col text-center mb-2 mt-2">
-              <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
-                5-10 years
-              </button>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col text-center mb-2 mt-2">
-              <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
-                10+ years
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="row text-center d-none">
-          <div class="col">
-          <div>
-          <h1 class="mt-5">What are you?</h1>
-        </div>
-        <div class="row pt-4" role="button">
-          <button class="btn btn-outline-secondary btn-lg d-grid gap-2 col-8 mx-auto mb-3">Student</button>
-          <button class="btn btn-outline-info btn-lg d-grid gap-2 col-8 mx-auto mb-3">Employee</button>
-          <button class="btn btn-outline-dark btn-lg d-grid gap-2 col-8 mx-auto">Other</button>
-        </div>
-          </div>
-
-        </div>
-
-        <div class="text-center d-none">
-          <div class="mt-4">
-            <h1>How do you want to build your resume?</h1>
-          </div>
-          <div class="row">
-            <button class="btn btn-outline-secondary mt-4 mb-3 btn-lg">Create a new one</button>
-            <button class="btn btn-outline-primary btn-lg">I have already a resume and just want to put their last information in this one</button>
-          <div>
-        </div>
-            X CM L X X ZL ZKX
-        <div>
-          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <form>
-              <div class="mb-3">
-                <label for="schoolTarget" class="form-label">School Name</label>
-                <input type="text" class="form-control" id="schoolTarget"/>        
-              </div>               
-            </form>
-          </div>
-        </div>
-
-        <div class="row d-none">
-          <button type="submit" class="btn btn-success btn-lg">Next</button>
+          </form>
         </div>
       </div>
-      hOLA
-    </div>
-    HOLA
-  </body>
+      <div class="row d-none">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <form>
+            <div class="mb-3">
+              <label for="phoneTarget" class="form-label">Phone</label>
+              <input type="text" class="form-control" id="phoneTarget" />
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <form>
+            <div class="mb-3">
+              <label for="emailTarget" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="emailTarget" placeholder="example@gmail.com" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row d-none">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <form>
+            <div class="mb-3">
+              <label for="countryTarget" class="form-label">Country</label>
+              <input type="text" class="form-control" id="countryTarget" aria-describedby="countryHelp" />
+              <div id="countryHelp" class="form-text">
+                put the country you are currently in
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <form>
+            <div class="mb-3">
+              <label for="stateTarget" class="form-label">State/Province</label>
+              <input type="text" class="form-control" id="stateTarget" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row d-none">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <form>
+            <div class="mb-3">
+              <label for="cityTarget" class="form-label">City</label>
+              <input type="text" class="form-control" id="cityTarget" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row d-none">
+        <div class="col text-center pb-4">
+          <h1 class="pt-5">How long have you been working?</h1>
+          <span class="lead h6">This information will help us to provide you with better service<span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col text-center mt-5 mb-2">
+          <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
+            No experience
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mb-2 mt-2">
+          <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
+            Less than 3 years
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mb-2 mt-2">
+          <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
+            3-5 years
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mb-2 mt-2">
+          <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
+            5-10 years
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mb-2 mt-2">
+          <button class="btn btn-outline-primary btn-lg d-grid gap-2 col-8 mx-auto">
+            10+ years
+          </button>
+        </div>
+      </div>
+
+
+      <div class="row text-center d-none">
+        <div class="col">
+          <div>
+            <h1 class="mt-5">What are you?</h1>
+          </div>
+          <div class="row pt-4" role="button">
+            <button class="btn btn-outline-secondary btn-lg d-grid gap-2 col-8 mx-auto mb-3">Student</button>
+            <button class="btn btn-outline-info btn-lg d-grid gap-2 col-8 mx-auto mb-3">Employee</button>
+            <button class="btn btn-outline-dark btn-lg d-grid gap-2 col-8 mx-auto">Other</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center d-none">
+        <div class="mt-4">
+          <h1>How do you want to build your resume?</h1>
+        </div>
+        <div class="row">
+          <button class="btn btn-outline-secondary mt-4 mb-3 btn-lg">Create a new one</button>
+          <button class="btn btn-outline-primary btn-lg">I have already a resume and just want to put their last
+            information in this one</button>
+          <div>
+          </div>
+          X CM L X X ZL ZKX
+          <div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <form>
+                <div class="mb-3">
+                  <label for="schoolTarget" class="form-label">School Name</label>
+                  <input type="text" class="form-control" id="schoolTarget" />
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="row d-none">
+            <button type="submit" class="btn btn-success btn-lg">Next</button>
+          </div>
+        </div>
+        hOLA
+      </div>
+      HOLA
+</body>
+
 </html>
