@@ -26,7 +26,6 @@ html {
   border-bottom-right-radius: 0;
   text-align: center;
   height: 100px;
-  background: url("http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1444253482/DG2015-paris.jpg?itok=XH81cBH9");
   background-color: #4d637b;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,6 +83,7 @@ html {
   border-radius: 5px;
 }
 .wizard__congrats-message {
+  background-color: red;
   color: #676767;
   text-align: center;
   position: absolute;
@@ -190,9 +190,9 @@ html {
   color: #676767;
   background: #fff;
   font-weight: 800;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   margin: 0 auto;
   border-radius: 50%;
   border: 5px solid #c3c3c3;
@@ -304,4 +304,8 @@ html {
   100% {
     opacity: 1;
   }
+}
+
+.panel {
+  width: 100%;
 }
