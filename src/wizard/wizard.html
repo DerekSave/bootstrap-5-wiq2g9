@@ -4,6 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
+
 <body>
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
@@ -230,8 +232,8 @@
                     </button>
                   </div>
                 </div>
-                </div>
               </div>
+            </div>
           </div>
         </div>
         <div class="panel">
@@ -317,14 +319,14 @@
             <h2 class="panel__title">Tell us about your previous jobs</h2>
             <p class="panel__subheading">We need this information for the resume</p>
           </header>
-  
+
           <div class="panel__content">
             <div class="row mt-4">
               <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <form>
                   <div class="mb-3">
                     <label for="jobTitleTarget" class="form-label">Job Title</label>
-                    <input type="text" class="form-control" id="jobTitleTarget"/>
+                    <input type="text" class="form-control" id="jobTitleTarget" />
                   </div>
                 </form>
               </div>
@@ -332,7 +334,7 @@
                 <form>
                   <div class="mb-3">
                     <label for="employerTarget" class="form-label">Employer</label>
-                    <input type="text" class="form-control" id="employerTarget"/>
+                    <input type="text" class="form-control" id="employerTarget" />
                   </div>
                 </form>
               </div>
@@ -340,7 +342,7 @@
                 <form>
                   <div class="mb-3">
                     <label for="jobLocationTarget" class="form-label">Job Location</label>
-                    <input type="text" class="form-control" id="jobLocationTarget"/>
+                    <input type="text" class="form-control" id="jobLocationTarget" />
                   </div>
                 </form>
               </div>
@@ -348,7 +350,7 @@
                 <form>
                   <div class="mb-3">
                     <label for="startDateTarget" class="form-label">Start Date</label>
-                    <input type="text" class="form-control" id="startDateTarget"/>
+                    <input type="text" class="form-control" id="startDateTarget" />
                   </div>
                 </form>
               </div>
@@ -356,9 +358,36 @@
                 <form>
                   <div class="mb-3">
                     <label for="endDateTarget" class="form-label">End Date</label>
-                    <input type="text" class="form-control" id="endDateTarget"/>
+                    <input type="text" class="form-control" id="endDateTarget" />
                   </div>
                 </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <header class="panel__header">
+            <h2 class="panel__title">Tell us about your previous jobs</h2>
+            <p class="panel__subheading">We need this information for the resume</p>
+          </header>
+
+          <div class="panel__content">
+            <div class="row mt-4">
+              <h1 claas="title text-center">Skills</h1>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="mb-3">
+                  <label for="skillsTarget" class="form-label">Skills</label>
+                  <input type="text" class="form-control" id="skillsTarget" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <label for="skillDescriptionTarget" class="form-label">Skill Description</label>
+                <textarea class="form-control" id="skillDescriptionTarget" rows="3"></textarea>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
+                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-plus"></i> Add another
+                  <b>skill</b></button>
               </div>
             </div>
           </div>
@@ -378,4 +407,5 @@
     crossorigin="anonymous"></script>
   <script src="wizard.js" async defer></script>
 </body>
+
 </html>

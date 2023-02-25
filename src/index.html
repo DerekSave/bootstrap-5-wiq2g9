@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css"/
 </head>
 <body>
   <div>
@@ -175,10 +176,10 @@
         </div>
         <div class="col d-grid">
           <button class="btn btn-primary btn-lg"><i class="fa-sharp fa-solid fa-plus"></i> Add Another
-            Education</button>
+            <b>Education</b></button>
         </div>
       </div>
-      <div class="row mt-4">
+      <div class="row mt-4 d-none">
         <h1 class="title text-center">Tell us about your previous jobs</h1>
         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div class="mb-3">
@@ -211,26 +212,42 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-          <form>
             <div class="mb-3">
               <label for="promotionsTarget" class="form-label">Promotions</label>
               <input type="text" class="form-control" id="promotionsTarget"/>
             </div>
-          </form>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-          <form>
             <div class="mb-3">
               <label for="responsibilitiesTarget" class="form-label">Responsibilities</label>
               <input type="text" class="form-control" id="responsibilitiesTarget"/>
             </div>
-          </form>
         </div>
-
-        <div>
-
+      </div>
+      <div class="row mt-4 d-none">
+        <h1 claas="title text-center">Skills</h1>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="mb-3">
+            <label for="skillsTarget" class="form-label">Skills</label>
+            <input type="text" class="form-control" id="skillsTarget"/>
+          </div>
         </div>
-
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <label for="skillDescriptionTarget" class="form-label">Skill Description</label>
+          <textarea class="form-control" id="skillDescriptionTarget" rows="3"></textarea>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
+          <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-plus"></i>     Add another <b>skill</b></button>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <h1 class="title text-center">Your Summary</h1>
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="mb-3">
+            <label for="summaryTarget" class="form-label">Write a brief text about you</label>
+            <textarea id="summaryTarget" class="form-control" rows="3"></textarea>
+          </div>
+        </div>
       </div>
     </div>
   </div>
